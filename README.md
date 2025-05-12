@@ -1,4 +1,4 @@
-g# 4way-traffic-light
+# 4way-traffic-light
 int NR=2;
 int NY=3;
 int NG=4;
