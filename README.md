@@ -1,1 +1,61 @@
 # 4way-traffic-light
+int NR=2;
+int NY=3;
+int NG=4;
+int SR=5;
+int SY=6;
+int SG=7;
+int ER=8;
+int EY=9;
+int EG=10;
+int WR=11;
+int WY=12;
+int WG=13;
+void setup(){
+pinMode(2, OUTPUT);
+pinMode(3, OUTPUT);
+pinMode(4, OUTPUT);
+pinMode(5, OUTPUT);
+pinMode(6, OUTPUT);
+pinMode(7, OUTPUT);
+pinMode(8, OUTPUT);
+pinMode(9, OUTPUT);
+pinMode(10, OUTPUT);
+pinMode(11, OUTPUT);
+pinMode(12, OUTPUT);
+pinMode(13, OUTPUT);
+}
+void loop(){
+digitalWrite(2, low); //North//
+digitalWrite(4, High);
+delay(5000);
+digitalWrite(4, low);
+digitalWrite(3, High);
+delay(2000);
+digitalWrite(3, Low);
+digitalWrite(2, High);
+digitalWrite(5, low);//south//
+digitalWrite(7, High);
+delay(5000);
+digitalWrite(7, low);
+digitalWrite(6, High);
+delay(2000);
+digitalWrite(6, Low);
+digitalWrite(5, High);
+digitalWrite(8, low);//East//
+digitalWrite(10, High);
+delay(5000);
+digitalWrite(10, low);
+digitalWrite(9, High);
+delay(2000);
+digitalWrite(9, Low);
+digitalWrite(8, High);
+digitalWrite(11, low);//West//
+digitalWrite(13, High);
+delay(5000);
+digitalWrite(13, low);
+digitalWrite(12, High);
+delay(2000);
+digital Write(12, Low) 
+digitalWrite(11, High);
+}
