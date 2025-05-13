@@ -33,6 +33,8 @@ digitalWrite(3, High);
 delay(2000);
 digitalWrite(3, Low);
 digitalWrite(2, High);
+
+
 digitalWrite(5, low);//south//
 digitalWrite(7, High);
 delay(5000);
@@ -41,6 +43,8 @@ digitalWrite(6, High);
 delay(2000);
 digitalWrite(6, Low);
 digitalWrite(5, High);
+
+
 digitalWrite(8, low);//East//
 digitalWrite(10, High);
 delay(5000);
@@ -49,6 +53,8 @@ digitalWrite(9, High);
 delay(2000);
 digitalWrite(9, Low);
 digitalWrite(8, High);
+
+
 digitalWrite(11, low);//West//
 digitalWrite(13, High);
 delay(5000);
